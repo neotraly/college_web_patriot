@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'OpenSans'; 
+	src: url(../resources/Open_Sans/static/OpenSans/OpenSans-Regular.ttf); 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header
+{
+    width: 100%;
+    height: 60px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    
+    
+    
+}
+.logo
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+   
+    margin-left: 10%;
+    
+}
+.logo img
+{
+    width: 100%;
+    height: 100%;
+}
+.logo :hover{
+    cursor: pointer;
+}
+
+.menu
+{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'OpenSans';
+    font-size: 20px;
+    margin-right: 10%;
+}
+.menu a:hover
+{
+    cursor: pointer;
+    color: rebeccapurple;
+    font-weight: bold;
+    
+}
+.content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.first_name
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fs
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 60px;
+    font-style: bold;
+    font-weight: bold;
+}
+.library
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.library_head
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'OpenSans';
+    font-size: 40px;
+}
+.veteranu
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.veteranu_head
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'OpenSans';
+    font-size: 40px;
+    background-color:gainsboro;
+}
+.vet_img
+{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    width: auto;
+    height: auto;
+
+}
