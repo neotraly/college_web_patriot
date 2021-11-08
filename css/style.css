@@ -171,3 +171,12 @@ header
     height: auto;
 
 }
+footer
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    flex-direction: column;
+    
+}
